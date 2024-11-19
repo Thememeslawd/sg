@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Purchase Confirmation
+{% endblock %}
+
+{% block main %}
+    <h1>Purchase Successful!</h1>
+    <p>You bought {{ shares }} shares of {{ symbol }} for ${{ cost }}.</p>
+    <a href="/" class="btn btn-primary">Go Home</a>
+{% endblock %}
+
+
